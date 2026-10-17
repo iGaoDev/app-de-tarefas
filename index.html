@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quest Log - App de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header-section">
+      <p class="date-text">Quarta-feira, 18 de junho</p>
+      <h1>Bom dia, Marina.</h1>
+      <p class="subtitle" id="subtitleText">Tens 0 tarefas para concluir hoje.</p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-badge" id="progressPercentage">0%</div>
+      <div class="progress-info">
+        <span class="progress-title">Progresso diário</span>
+        <span class="progress-sub" id="progressSubText">0 de 0 concluídas</span>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa...">
+      <button id="addBtn">Adicionar</button>
+    </div>
+
+    <div class="section-header">
+      <div class="section-title-group">
+        <span class="section-label">Para fazer</span>
+        <span class="section-badge" id="taskCountBadge">0</span>
+      </div>
+      <div class="sort-dropdown">
+        <span>Ordenar por horário ▾</span>
+      </div>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="animacao.js"></script>
+</body>
+
+</html>
